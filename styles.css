@@ -759,3 +759,9 @@ footer a:hover {
     justify-content: space-between;
   }
 }
+@media screen and (min-width: 1400px) {
+  body {
+    width: 80%;
+    margin: auto;
+  }
+}
