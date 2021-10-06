@@ -728,6 +728,9 @@ footer a:hover {
     box-shadow: none;
   }
 
+  .activities {
+    width: 1865px;
+  }
   .activitiesList {
     display: flex;
     flex-direction: column;
@@ -759,9 +762,13 @@ footer a:hover {
     justify-content: space-between;
   }
 }
-@media screen and (min-width: 1400px) {
+
+@media (min-width: 1920px) {
   body {
     width: 80%;
     margin: auto;
+  }
+  .activities {
+    width: 2165px;
   }
 }
