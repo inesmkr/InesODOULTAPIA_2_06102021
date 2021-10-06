@@ -433,3 +433,178 @@ footer div {
 footer a:hover {
   text-decoration: underline;
 }
+
+/* Tablet version */
+@media screen and (min-width: 768px) {
+  .navLinks li:nth-child(1) {
+    order: 4;
+    flex: 2;
+  }
+  .navLinks li:nth-child(2) {
+    order: 0;
+  }
+  .navLinks li:nth-child(3) {
+    order: 2;
+  }
+  .navLinks li:nth-child(4) {
+    order: 2;
+  }
+  nav {
+    width: 100%;
+    flex-direction: row;
+  }
+  .register {
+    padding-top: 10px;
+    padding-left: 50px;
+  }
+
+  #register {
+    align-self: unset;
+  }
+
+  h2,
+  h3 {
+    padding-left: 20px;
+    width: fit-content;
+  }
+  #hebergement,
+  #activities {
+    border-bottom: none;
+    width: fit-content;
+    margin-left: 50px;
+    width: auto;
+  }
+  .topBorder {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+  .topBorder li {
+    align-self: baseline;
+  }
+  .register {
+    display: flex;
+  }
+  #logo {
+    align-self: flex-start;
+  }
+  .topBorder {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .navLinks {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  nav a:hover {
+    border-top: solid 2px #0065fc;
+  }
+
+  .city {
+    width: 450px;
+  }
+  .searchButton {
+    background-image: none;
+    font-size: 1em;
+    width: auto;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .mostPopular {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 30px;
+  }
+  .mostPopular a,
+  .mostPopular li {
+    width: auto;
+    height: auto;
+    max-width: none;
+  }
+  .popularImage {
+    width: 300px;
+    height: 200px;
+  }
+  .mostPopular h2 {
+    font-size: 1.2em;
+  }
+  .mostPopular h3 {
+    font-size: 1em;
+  }
+  .description {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .description h2 {
+    font-size: 24px;
+    width: 200px;
+  }
+  .description h3 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .description .classement {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .hebergementImage {
+    width: 320px;
+  }
+  .hebergementList a {
+    width: max-content;
+  }
+  .hebergementList p {
+    width: 100%;
+    padding-left: 60px;
+  }
+  .hebergementList {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hebergementList h2 {
+    width: 100%;
+  }
+  .hebergementList h4 {
+    width: 100%;
+  }
+
+  .activitieImageL,
+  .activitieImageM,
+  .activitieImageS {
+    height: 200px;
+    width: 320px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .activitiesList a {
+    width: max-content;
+    background-color: white;
+    box-shadow: -1px 2px 27px 0px rgba(189, 189, 189, 0.65);
+  }
+  .activitiesList {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .activities a {
+    max-width: none;
+  }
+  .activities h2 {
+    font-size: 1.5em;
+  }
+
+  footer {
+    justify-content: space-around;
+    flex-direction: row;
+  }
+}
