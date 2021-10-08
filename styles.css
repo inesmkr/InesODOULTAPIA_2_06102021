@@ -613,6 +613,7 @@ footer a:hover {
   body {
     margin-left: 50px;
     margin-right: 50px;
+    overflow-x: hidden;
   }
   .navLinks {
     justify-content: end;
@@ -757,18 +758,50 @@ footer a:hover {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
   }
+
   footer {
     flex-direction: row;
     justify-content: space-between;
   }
 }
 
-@media (min-width: 1920px) {
-  body {
-    width: 80%;
-    margin: auto;
+@media screen and (min-width: 1921px) {
+  .content {
+    margin-left: 500px;
+    margin-right: 500px;
   }
   .activities {
-    width: 2165px;
+    width: 700px;
+  }
+  .activitiesList {
+    display: flex;
+    flex-direction: column;
+    max-height: 600px;
+  }
+  .activitiesList a {
+    width: 300px;
+    margin-left: 50px;
+  }
+  .activitieImageL {
+    width: 300px;
+    height: 375px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .activitieImageM {
+    width: 300px;
+    height: 180px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .activitieImageS {
+    width: 300px;
+    height: 120px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  footer {
+    margin-left: 500px;
+    margin-right: 500px;
   }
 }
