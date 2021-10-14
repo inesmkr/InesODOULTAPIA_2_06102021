@@ -187,7 +187,7 @@ button {
 .filtersList button:hover {
   color: #838383;
   background-color: #f2f2f2;
-  border-color: #f2f2f2;
+  border-color: #838383;
 }
 .eco,
 .family,
@@ -645,156 +645,156 @@ footer a:hover {
     margin: auto;
   }
 
-/* Desktop version */
-@media screen and (min-width: 1025px) {
-  .container {
-    width: 1900px;
-    margin: auto;
-  }
-  .navLinks {
-    justify-content: end;
-    flex-wrap: nowrap;
-    margin-top: 50px;
-  }
-  .navLinks li:nth-child(1) {
-    order: 4;
-  }
-  .navLinks li:nth-child(2) {
-    order: 0;
-  }
-  .navLinks li:nth-child(3) {
-    order: 2;
-  }
-  .navLinks li:nth-child(4) {
-    order: 1;
-  }
-  .hebergementLink,
-  .activitiesLink {
-    padding-top: 58px;
-  }
-  .register {
-    margin-right: 0;
-    padding-top: 10px;
-  }
-  .register:hover {
-    border: none;
-  }
-  #register {
-    padding-left: 18px;
-  }
-  .hebergementLink:hover,
-  .activitiesLink:hover {
-    border-top: #0065fc solid 10px;
-  }
-  .filters  {
-    margin-left: 100px;
-  }
-  .filtersList {
-    width: max-content;
-  }
-  .eco,
-  .family,
-  .animals,
-  .romantic {
-    border: solid 2px #f2f2f2;
-    border-radius: 30px;
-    width: max-content;
-    padding-right: 20px;
-    border-left: none;
-    margin-right: 15px;
-  }
+  /* Desktop version */
+  @media screen and (min-width: 1025px) {
+    .container {
+      width: 1900px;
+      margin: auto;
+    }
+    .navLinks {
+      justify-content: end;
+      flex-wrap: nowrap;
+      margin-top: 50px;
+    }
+    .navLinks li:nth-child(1) {
+      order: 4;
+    }
+    .navLinks li:nth-child(2) {
+      order: 0;
+    }
+    .navLinks li:nth-child(3) {
+      order: 2;
+    }
+    .navLinks li:nth-child(4) {
+      order: 1;
+    }
+    .hebergementLink,
+    .activitiesLink {
+      padding-top: 58px;
+    }
+    .register {
+      margin-right: 0;
+      padding-top: 10px;
+    }
+    .register:hover {
+      border: none;
+    }
+    #register {
+      padding-left: 18px;
+    }
+    .hebergementLink:hover,
+    .activitiesLink:hover {
+      border-top: #0065fc solid 10px;
+    }
+    .filters  {
+      margin-left: 100px;
+    }
+    .filtersList {
+      width: max-content;
+    }
+    .eco,
+    .family,
+    .animals,
+    .romantic {
+      border: solid 2px #f2f2f2;
+      border-radius: 30px;
+      width: max-content;
+      padding-right: 20px;
+      border-left: none;
+      margin-right: 15px;
+    }
 
-  .hebergement {
-    flex-direction: row;
-  }
-  .hebergementList {
-    background-color: #f2f2f2;
-    border-radius: 20px;
-  }
-  .hebergementImage {
-    width: 400px;
-    height: 150px;
-  }
-  .hebergementList a {
-    height: 250px;
-  }
-  .hebergementList h2 {
-    margin-top: 50px;
-    margin-left: 30px;
-  }
-  .hebergementList h4 {
-    font-size: 15px;
-    width: 100%;
-  }
-  .hebergementList h5 {
-    margin-left: 50px;
-    margin-bottom: 50px;
-  }
-  .hebergementList p {
-    padding-left: 20px;
-  }
-  .popularImage {
-    width: 150px;
-    height: 150px;
-  }
-  .description h2 {
-    font-size: 18px;
-    margin-bottom: 0px;
-  }
-  .description h3 {
-    font-size: 15px;
-  }
-  .description {
-    width: auto;
-  }
+    .hebergement {
+      flex-direction: row;
+    }
+    .hebergementList {
+      background-color: #f2f2f2;
+      border-radius: 20px;
+    }
+    .hebergementImage {
+      width: 400px;
+      height: 150px;
+    }
+    .hebergementList a {
+      height: 250px;
+    }
+    .hebergementList h2 {
+      margin-top: 50px;
+      margin-left: 30px;
+    }
+    .hebergementList h4 {
+      font-size: 15px;
+      width: 100%;
+    }
+    .hebergementList h5 {
+      margin-left: 50px;
+      margin-bottom: 50px;
+    }
+    .hebergementList p {
+      padding-left: 20px;
+    }
+    .popularImage {
+      width: 150px;
+      height: 150px;
+    }
+    .description h2 {
+      font-size: 18px;
+      margin-bottom: 0px;
+    }
+    .description h3 {
+      font-size: 15px;
+    }
+    .description {
+      width: auto;
+    }
 
-  .mostPopular {
-    margin-bottom: 0;
-    margin-top: 0;
-    margin-left: 15px;
-  }
-  .mostPopularTitle h2 {
-    font-size: 24px;
-  }
-  .mostPopular a {
-    margin-bottom: 50px;
-    transition-duration: 0.2s;
-  }
-  .mostPopular a:hover {
-    box-shadow: none;
-  }
+    .mostPopular {
+      margin-bottom: 0;
+      margin-top: 0;
+      margin-left: 15px;
+    }
+    .mostPopularTitle h2 {
+      font-size: 24px;
+    }
+    .mostPopular a {
+      margin-bottom: 50px;
+      transition-duration: 0.2s;
+    }
+    .mostPopular a:hover {
+      box-shadow: none;
+    }
 
-  .activitiesList {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-height: 600px;
-  }
-  .activitiesList a {
-    width: 400px;
-  }
-  .activitieImageL {
-    width: 400px;
-    height: 375px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-  }
-  .activitieImageM {
-    width: 400px;
-    height: 180px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-  }
-  .activitieImageS {
-    width: 400px;
-    height: 120px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-  }
+    .activitiesList {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-height: 600px;
+    }
+    .activitiesList a {
+      width: 400px;
+    }
+    .activitieImageL {
+      width: 400px;
+      height: 375px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+    .activitieImageM {
+      width: 400px;
+      height: 180px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+    .activitieImageS {
+      width: 400px;
+      height: 120px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
 
-  footer {
-    flex-direction: row;
-    justify-content: space-between;
+    footer {
+      flex-direction: row;
+      justify-content: space-between;
+    }
   }
-}
 }
