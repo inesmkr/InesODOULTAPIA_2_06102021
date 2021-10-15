@@ -6391,7 +6391,6 @@
 }
 .sr-only {
   border: 0;
-  clip: rect(0, 0, 0, 0);
   height: 1px;
   margin: -1px;
   overflow: hidden;
@@ -6401,7 +6400,6 @@
 }
 .sr-only-focusable:active,
 .sr-only-focusable:focus {
-  clip: auto;
   height: auto;
   margin: 0;
   overflow: visible;
